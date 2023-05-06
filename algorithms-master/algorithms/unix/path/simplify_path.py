@@ -20,7 +20,7 @@ def simplify_path_v1(path):
     return os.path.abspath(path)
 
 def simplify_path_v2(path):
-    stack, tokens = [], path.split("/")
+    stack, tokens = list(str), path.split("/")
     for token in tokens:
         if token == ".." and stack:
             stack.pop()
