@@ -1,5 +1,5 @@
 action: GLOB, msg: packaging
-cwd: C:\Users\I560543\Desktop\android\ivt-hw-2023-mega-bite\algorithms-master
+cwd: C:\Users\I560543\Desktop\android\ivt-hw-2023
 cmd: 'C:\Users\I560543\AppData\Local\Programs\Python\Python311\python.exe' setup.py sdist --formats=zip --dist-dir 'C:\Users\I560543\Desktop\android\ivt-hw-2023\.tox\dist'
 C:\Users\I560543\AppData\Local\Programs\Python\Python311\Lib\site-packages\setuptools\config\setupcfg.py:508: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
   warnings.warn(msg, warning_class)
