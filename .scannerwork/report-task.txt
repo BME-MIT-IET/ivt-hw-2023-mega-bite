@@ -2,5 +2,10 @@ projectKey=ivt_HW
 serverUrl=http://localhost:9000
 serverVersion=10.0.0.68432
 dashboardUrl=http://localhost:9000/dashboard?id=ivt_HW
+<<<<<<< Updated upstream
 ceTaskId=AYfsdDpchn6Fj8O01JfJ
 ceTaskUrl=http://localhost:9000/api/ce/task?id=AYfsdDpchn6Fj8O01JfJ
+=======
+ceTaskId=AYg2Cg5rmB1ZwR6L0g9t
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYg2Cg5rmB1ZwR6L0g9t
+>>>>>>> Stashed changes
