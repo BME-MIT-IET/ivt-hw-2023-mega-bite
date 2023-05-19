@@ -10,7 +10,7 @@ is not under tests folder so it was unkonw for it . So I have to make the tests 
 an installable package.
 
 I created a src directory which contains my algorithms package . 
-![](./img/laout.png)
+![](./img/laout.PNG)
 
 Then I created pyproject.toml which is a configuration file for my project also I created a setup.cfg where 
 I stored all the metadata of my project like the tilte and description . and then I added the information about 
@@ -20,5 +20,5 @@ After that we run pip install -e .  which downloaded all our dependencies. final
 the current environment.
 let's try to run one of the tests now :
 
-![](./img/pip.png)
+![](./img/pip.PNG)
 
