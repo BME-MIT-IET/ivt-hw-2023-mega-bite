@@ -8,6 +8,7 @@ Why I used it ?
 After cloning the project I wanted to run the tests but I o this issue " improt Module not found " and this is because that algorithms folder 
 is not under tests folder so it was unkonw for it . So I have to make the tests run wherever they are . To acheive this we need to make our project
 an installable package.
+![](./img/notfound.PNG)
 
 I created a src directory which contains my algorithms package . 
 ![](./img/laout.PNG)
