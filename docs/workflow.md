@@ -19,4 +19,5 @@ it is easy just we add two lines :
 ![](img/flake8failed.PNG) 
 We can see flake8 found many errors related to styling and quality issues so we can proceed and solve them .
 We can also add mypy test to the workflow however this project has many issues so we removed flake8 and mypy
-and left only pytest and now we will correct the failing test and here is the result 
+and left only pytest and now we will correct the failing test and here is the result:
+![](img/successfultest.PNG) 
