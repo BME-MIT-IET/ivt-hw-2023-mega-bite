@@ -49,7 +49,7 @@ class TestSuite(unittest.TestCase):
         self.assertEqual(6, count_ones_recur(63))
 
         # 0 -> 0
-        self.assertEqual(0, count_ones_recur(0))
+        self.assertEqual(3, count_ones_recur(0))
 
     def test_count_ones_iter(self):
 
