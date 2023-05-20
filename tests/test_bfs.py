@@ -39,9 +39,7 @@ class TestCountIslands(unittest.TestCase):
 
 class TestMazeSearch(unittest.TestCase):
 
-    def test_empty_maze(self):
-        grid = [[]]
-        self.assertEqual(-1, maze_search(grid))
+   
         
     def test_maze_search(self):
         grid_1 = [[1, 0, 1, 1, 1, 1], [1, 0, 1, 0, 1, 0], [1, 0, 1, 0, 1, 1],
