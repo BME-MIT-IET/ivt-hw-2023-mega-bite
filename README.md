@@ -9,3 +9,4 @@ Added the built framework to the project (Pip), added pytest and pytest coverage
 which is pytest coverage.
 4) Meri and Ahmed: worked together on setting up the workflow using GitHub Actions for the project and added mypy and flake8 
 which are external tools used for development workflow, that assist in code analysis and quality assurance.
+Ahmed also extended and documented the new unit tests to increase code coverage.
