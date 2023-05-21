@@ -9,6 +9,19 @@ import unittest
 
 class TestCountIslands(unittest.TestCase):
 
+    
+    def test_empty_grid(self):
+        grid = [[]]
+        self.assertEqual(0, count_islands(grid))
+
+    def test_grid_with_no_islands(self):
+        grid = [[0, 0], [0, 0]]
+        self.assertEqual(0, count_islands(grid))
+
+    def test_grid_with_one_large_island(self):
+        grid = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+        self.assertEqual(1, count_islands(grid))
+        
     def test_count_islands(self):
         grid_1 = [[1, 1, 1, 1, 0], [1, 1, 0, 1, 0], [1, 1, 0, 0, 0],
                   [0, 0, 0, 0, 0]]
@@ -26,6 +39,8 @@ class TestCountIslands(unittest.TestCase):
 
 class TestMazeSearch(unittest.TestCase):
 
+   
+        
     def test_maze_search(self):
         grid_1 = [[1, 0, 1, 1, 1, 1], [1, 0, 1, 0, 1, 0], [1, 0, 1, 0, 1, 1],
                   [1, 1, 1, 0, 1, 1]]
